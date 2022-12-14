@@ -61,7 +61,7 @@ Therefore, when DFS from the root node r of the graph completes:
 | Version pairs             | Code churn size                                              | MVICFG size                 | NO. of Acyclic paths added | NO. of Acyclic paths removed | time used |
 | ------------------------- | ------------------------------------------------------------ | --------------------------- | -------------------------- | ---------------------------- | --------- |
 | Test: v1-v2               | Diff file size: 4.0K / 14 lines.<br />Diff contents: 2 lines replaced. | \|V\| = 73,<br />\|E\| = 75 | 2                          | 2                            | 37ms      |
-| Test: v2-v3               |                                                              |                             |                            |                              |           |
+| Test: v2-v3               | Diff file size: 4.0K / 19 lines.<br />Diff contents: 4 lines replaced, 1 line added. | \|V\| = 70,<br />\|E\| = 73 | 2                          | 2                            | 36ms      |
 | Your test program: v1-v2  |                                                              |                             |                            |                              |           |
 | Your test program: v2-v3  |                                                              |                             |                            |                              |           |
 | Real-world program: v1-v2 |                                                              |                             |                            |                              |           |
