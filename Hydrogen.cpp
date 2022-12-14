@@ -115,6 +115,12 @@ class DfsTraverser {
 
       unsigned temp = x->numActivePathsInVersion[2] + x->numRetiredPathsInVersion[2];
     }
+  
+  /** Prints misc info. */
+  void printMisc() {
+    std::cout << "[MARIOS:] The graph has " << visited.size() << " nodes.\n";
+    std::cout << "[MARIOS:] The graph has " << graph->getGraphEdges().size() << " edges.\n";
+  }
 
   private:
     Graph *graph;                       /** The graph onto which to perform DFS. */
@@ -185,8 +191,11 @@ int main(int argc, char *argv[]) {
   std::cout << "Finished Building MVICFG in " << mvicfgBuildTime.count() << "ms\n";
   
   DfsTraverser dt(MVICFG);
+  
   std::cout << "[MARIOS:] There are " << dt.paths_added() << " paths added.\n";
   std::cout << "[MARIOS:] There are " << dt.paths_removed() << " paths removed.\n";
+  
+  dt.printMisc();
   
   /* Write output to file */
   std::ofstream rFile("Result.txt", std::ios::trunc);
