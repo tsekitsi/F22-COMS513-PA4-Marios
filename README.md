@@ -62,8 +62,8 @@ Therefore, when DFS from the root node r of the graph completes:
 | ------------------------- | ------------------------------------------------------------ | --------------------------- | -------------------------- | ---------------------------- | --------- |
 | Test: v1-v2               | Diff file size: 4.0K / 14 lines.<br />Diff contents: 2 lines replaced. | \|V\| = 73,<br />\|E\| = 75 | 2                          | 2                            | 37ms      |
 | Test: v2-v3               | Diff file size: 4.0K / 19 lines.<br />Diff contents: 4 lines replaced, 1 line added. | \|V\| = 70,<br />\|E\| = 73 | 2                          | 2                            | 36ms      |
-| Your test program: v1-v2  |                                                              |                             |                            |                              |           |
-| Your test program: v2-v3  |                                                              |                             |                            |                              |           |
+| Your test program: v1-v2  | Diff file size: 4.0 / 14 lines.<br />Diff contents: 1 line replaced, 2 lines added. | \|V\| = 27,<br />\|E\| = 31 | 3                          | 2                            | 28ms      |
+| Your test program: v2-v3  | Diff file size: 4.0 / 27 lines.<br />Diff contents: 5 lines replaced, 6 lines added. | \|V\| = 56,<br />\|E\| = 63 | 6                          | 3                            | 51ms      |
 | Real-world program: v1-v2 |                                                              |                             |                            |                              |           |
 | Real-world program: v2-v3 |                                                              |                             |                            |                              |           |
 
