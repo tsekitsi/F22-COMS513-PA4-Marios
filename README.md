@@ -56,3 +56,14 @@ Therefore, when DFS from the root node r of the graph completes:
 - paths_added = `r->numActivePathsInVersion[2]+r->numRetiredPathsInVersion[2]`;
 - paths_removed = `r->numActivePathsInVersion[1]+r->numRetiredPathsInVersion[1]`;
 
+## Table for step 8
+
+| Version pairs             | Code churn size | MVICFG size | NO. of Acyclic paths added | NO. of Acyclic paths removed | time used |
+| ------------------------- | --------------- | ----------- | -------------------------- | ---------------------------- | --------- |
+| Test: v1-v2               |                 |             |                            |                              |           |
+| Test: v2-v3               |                 |             |                            |                              |           |
+| Your test program: v1-v2  |                 |             |                            |                              |           |
+| Your test program: v2-v3  |                 |             |                            |                              |           |
+| Real-world program: v1-v2 |                 |             |                            |                              |           |
+| Real-world program: v2-v3 |                 |             |                            |                              |           |
+
