@@ -11,7 +11,7 @@ As far as code, I have modified (1) Graph_Instruction.hpp and (2) Hydrogen.cpp.
 
 As far as tests, I made folders (1) MyTests (for step 5) and (2) RealTests (for step 6), with similar substructure to that of TestPrograms, which are meant to be located in the same directory level as TestPrograms.
 
-### How to run my code
+### How to run my code & tests
 
 Inside the Hydrogen docker container and inside the "MVICFG" directory, copy & overwrite (1) Graph_Instruction.hpp and (2) Hydrogen.cpp with my files. Copy my test directories & their contents (MyTests/ and RealTests/) preferably also inside the "MVICFG" directory. Then, use Hydrogen per the official instructions.
 
